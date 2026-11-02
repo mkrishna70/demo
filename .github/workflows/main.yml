@@ -10,5 +10,13 @@ jobs:
    steps:
      - name: Running single command line job1
        run: echo "Hi"
-
-       
+   job2:
+     name: JOB2
+     runs-on: ubuntu-latest
+     steps:
+      - name: hostname
+        run: hostname
+      - name: running multiple commands
+        run: |
+         echo "Hello"
+         echo "Current data`date`"
