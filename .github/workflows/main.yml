@@ -10,7 +10,8 @@ jobs:
    steps:
      - name: Running single command line job1
        run: echo "Hi"
-   job2:
+       
+  job2:
      name: JOB2
      runs-on: ubuntu-latest
      steps:
