@@ -24,7 +24,7 @@ jobs:
 
   job3:
       name: JOB3
-      needs: job1
+      needs: job1 # sequential 
       runs-on: ubuntu-latest
       steps:
         - name: testing
