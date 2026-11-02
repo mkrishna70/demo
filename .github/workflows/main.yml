@@ -2,3 +2,13 @@ name: my-first workflow
 
 # To get a trigger on every push in the repo in any branch
 on: push
+
+jobs:
+  job1: 
+   name: JOB1
+   runs-on: ubuntu-latest
+   steps:
+     - name: Running single command line job1
+       run: echo "Hi"
+
+       
